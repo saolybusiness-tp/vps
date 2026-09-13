@@ -10,15 +10,15 @@ from telethon.sessions import StringSession
 # 🤖 LY TOPUP — TELEGRAM USERBOT LISTENER (24/7 CLOUD AUTO-FORWARDER)
 # ==============================================================================
 
-API_ID = int(os.environ.get("TELEGRAM_API_ID", "10672540"))
-API_HASH = os.environ.get("TELEGRAM_API_HASH", "d05228f6282730bdffdfe02898fa7de5")
+API_ID = int(os.environ.get("TELEGRAM_API_ID", "37057416"))
+API_HASH = os.environ.get("TELEGRAM_API_HASH", "f39bde739202ac9ab5d9b2f8a7dfa952")
 SESSION_STRING = os.environ.get(
     "TELEGRAM_SESSION_STRING", 
-    "1BVtsOIwBu08vSKPH1wXgsQNQDqhy1mn5RMZCKhR-uTSwBuaH20ftup3vvMdthCOVW8o8J2Na-q2UZAsKn_9D_PW1hxz5V2gy7XnIYyj-eobMSYcw5tvg9o0Mmmsm64yqf3XfIGR2ggzlXIsLCt9l0bTvwhk7s-8t5QahokqanNce3MK32u7A6HyRIiaM9--HDa2jLL3-RvON_RjHdOnKTZGhL3lz8RDgXoJ7gRjn8uUkMhgYz22SpE9bWsSDKMLZE0aJKBLcKOY3W9KC0UZsmjSLZAJJ1c8dFYhaQHwXPU-aQrHairbITNYAC6gZgJtqD1YBep0BVaXGEFFohNNKDSlXNZvnLEQ="
+    "1BVtsOI0Bu5FqEyCxgyVao6__djNmWd9I60MAGKyyhFAvkJ5fzgxQVNqm6rGiApxNeIrlNWY_WBvJoHweoVXVS8aTlDz5B413B5IerQW-nk1NlUE6sCJA7y2cEyheOKLmfNiLjdMMi3j5FlTp0xKIH9OyqlG6pEkLMdkXADUv8xjHWAaaHN-aKsAAGaLX8B3w7tNbkmkJXvzyx3cFx9JOxdOH2zvOutm0tM4wc8_CU4BPWFwZBVlLlDtUzwB-rB1kNp8xMBwgRvEmpQaQ2QGYKnKSJFpRp1lt2WtQd9i6PF26uwdovaPkA28GObEE0KnXpSnb7Cb9wgLnwZl3LKmbNwsNVfFpaBA="
 ).strip()
 
-# Target Group ID: -5401300175
-TARGET_GROUP_ID = int(os.environ.get("TARGET_GROUP_ID", "-5401300175"))
+# Target Group ID: -5475606520
+TARGET_GROUP_ID = int(os.environ.get("TARGET_GROUP_ID", "-5475606520"))
 
 # Cloudflare Worker Webhook URL
 WORKER_WEBHOOK_URL = os.environ.get(
